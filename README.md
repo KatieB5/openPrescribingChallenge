@@ -1,4 +1,4 @@
-# Bennett Institute coding problem: Solution
+# OpenPrescribing API coding challenge: Solution
 
 ## Tool overview
 
