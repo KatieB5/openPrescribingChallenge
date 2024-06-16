@@ -14,7 +14,7 @@ This is a command line tool which takes the chemical code for a medicine and use
 
 ### Design decisions
 
-1. As node:test had already been implemented, and I haven't used it before, I decided to keep using this to test my coding solution. However if I could re-do this coding task I would use the Jest testing library as I'm familiar with it, it provides a wider range of features vs node:test, has a large supporting community and has comprehensive docs
+1. As node:test had already been implemented, and I hadn't used it before, I decided to keep using this to test my coding solution. However if I could re-do this coding task I would use the Jest testing library as I'm familiar with it, it provides a wider range of features vs node:test, has a large supporting community and has comprehensive docs
 2. Originally I had two separate functions within the tool file, for separation of concerns (retrieval of chemical name and retrieval and processing of spending data). I later refactored this to have one function to reduce some redundancy in my code, although:
    - This meant my previous tests became redudant
    - Perhaps a better way to refactor (to maintian some separation of concerns) would have been to have the data retrieval for both API calls in the getChemicalCode function, then have a separate function (called by getChemicalCode) which handles the spending data sorting and processing

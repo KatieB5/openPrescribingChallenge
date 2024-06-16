@@ -186,7 +186,7 @@ test.skip("should return spending data for the ICB that prescribed the chemical 
   );
 });
 
-test("should get the chemical name", async () => {
+test("should get the chemical name and spending data", async () => {
   const chemicalData = await getChemicalName("0407010AD");
   assert.strictEqual(chemicalData.name, "Paracetamol and ibuprofen");
   assert.strictEqual(
